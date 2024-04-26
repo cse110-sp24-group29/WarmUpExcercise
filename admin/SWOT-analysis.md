@@ -12,7 +12,7 @@
 ## Weaknesses
 - The project faces issues with data privacy and security. The page stores sensitive user data without having tools to provide valid security and privacy.
 - The team although divided work efficiently, ended up with a disturbed workflow with some teams finishing work earlier leading to integrating technologies in a non-systematic manner.
-- The project has an insufficient fallback mechanism for widget failure. In an instance where some technologies fail the abscene of a secondary system could result in inefficiency and frustration. 
+- The project has an insufficient fallback mechanism for widget failure. In an instance where JavaScript is not present in a web browser some technologies fail. Overall the abscene of a secondary system could result in inefficiency and frustration. 
 
 ## Opportunities
 - Our team could further implement more features to the website such as recording data and sharing responses to. 
