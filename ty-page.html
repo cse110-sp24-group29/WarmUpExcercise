@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="images/favicon.ico">
+	<title>Thank You</title>
+	<style>
+		.site-header{
+			margin-top: 2px;
+			margin-right: 80px;
+		}
+        .container {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            padding: 0 20px; 
+			font-family: 'Lato', sans-serif; 
+        }
+        .ty-note {
+            font-family: 'Lato', sans-serif; 
+        }
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+			margin-right: 100px;
+			margin-top: 30px;
+            font-family: 'Lato', sans-serif; 
+        }
+        .back-button:hover {
+            background-color: #0056b3; 
+        }
+        .back-button i {
+            margin-right: 2px;
+        }
+		.image {
+            max-width: 280px; 
+            height: auto; 
+			margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+	<header class="site-header" id="header">
+		<h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
+	</header>
+
+	<div class="main-content">
+		<img class = "image" src="images/blue-tick.webp" alt="blue-tick">
+		<p class="ty-note" data-lead-id="ty_note">We know your time is valuable and are greatful that you have shared some of it with us!</p>
+	</div>
+    <a href="target_page.html" class="back-button"> <!-- Replace target-page.html with website link-->
+        <i class="fas fa-arrow-left"></i> Back
+    </a>
+	</div>
+</body>
+</html>
