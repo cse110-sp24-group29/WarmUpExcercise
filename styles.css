@@ -1,7 +1,80 @@
-body {
-    background-color: rgb(146, 143, 140);
+* {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR STYLING */
+
+nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav .hamburger {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+nav .hamburger .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin: 4px 0;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links {
+    position: fixed;
+    top: 50;
+    right: -100px; /* starts the nav links hidden off-screen */
+    height: 100%;
+    width: 100px;
+    background-color: white;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-links div {
     padding: 10px;
-    }
+    text-align: center;
+    width: 100%;
+}
+
+.nav-links div a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-links.active {
+    right: 0;
+}
+
+.nav-links div a:hover {
+    color: #aaa;
+}
+  
+
+/* BODY STYLING */
+
+body {
+    background-color: white;
+    padding: 10px;
+}
+
+/* FORM STYLING */
 
 .feedbacktype {
     margin-top: 20px;
@@ -60,7 +133,7 @@ body {
 
 }
 
-
+/*  FEEDBACK PAGE SUBMIT BUTTON */
 
 .Submitbutton {
     margin-top: 20px;
