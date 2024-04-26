@@ -1,6 +1,9 @@
-document
-  .getElementById("hamburger-menu")
-  .addEventListener("click", function () {
-    const navLinks = document.getElementById("nav-links");
-    navLinks.classList.toggle("active");
-  });
+document.addEventListener("DOMContentLoaded", function () {
+    
+    var submitButton = document.getElementById("submit");
+
+    submitButton.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.location.href = "ty-page.html";
+    });
+});
