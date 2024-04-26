@@ -183,3 +183,111 @@ body {
 .rBorder {
     border-radius: 4px;
 }
+
+.rating-widget {
+    text-align: center;
+}
+
+.stars {
+    display: inline-block;
+}
+
+.star {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: grey;
+}
+
+.star:hover,
+.star.hover-active,
+.star.active {
+    color: #ffd700;
+}
+
+#ratingResult {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.rating-widget-container {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.rating-heading {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.stars {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#ratingResult {
+    text-align: center;
+}
+/* Existing styles... */
+
+/* Additions and modifications below */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info label,
+.contact-info input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-info input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.rating-and-submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rating-widget-container {
+    flex: 1;
+}
+
+.submit-button-container {
+    flex-shrink: 0;
+    padding-left: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #66cdaa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #4cafaa;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -12,14 +13,13 @@
 
     <nav>
         <div class="logo">
-          <img href="#home" src="images/Logo1.png" alt="Logo" height="50" />
+            <img src="images/Logo1.png" alt="Logo" height="50" />
         </div>
         <h1 class="nav-title">Software Surfers</h1>
-        </div>
         <div class="hamburger" id="hamburger-menu">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
 
@@ -31,46 +31,61 @@
         <div><a href="#contact">Contact</a></div>
     </div>
 
-    <div>
-        <form class="forms"> 
-            <fieldset class="rBorder field">  
-                <div class="feedbacktype rBorder"> 
+    <div class="form-container">
+        <form class="forms">
+            <fieldset class="rBorder field">
+                <div class="feedbacktype rBorder">
                     <p>Feedback Type</p>
-                    <input type="radio" name="feedbacktype" id="field1"> 
-                    <label for="field1">Commments</label>
-                    <input type="radio" name="feedbacktype" id="field1"> 
-                    <label for="field1">Suggestions</label>
-                    <input type="radio" name="feedbacktype" id="field1"> 
-                    <label for="field1">Questions</label>
+                    <input type="radio" name="feedbacktype" id="comment">
+                    <label for="comment">Comments</label>
+                    <input type="radio" name="feedbacktype" id="suggestion">
+                    <label for="suggestion">Suggestions</label>
+                    <input type="radio" name="feedbacktype" id="question">
+                    <label for="question">Questions</label>
                 </div>
                 <div class="logo-container">
-                    <img src="images/Logo1.png" alt="Team-Logo" id="logo"> 
+                    <img src="images/Logo1.png" alt="Team-Logo" id="logo">
                 </div>
                 <div>
                     <label for="Review">Anything else you would like to add?</label>
                     <br>
-                    <textarea id="Review" name="Review" rows="4" cols="20" class="textbox rBorder"></textarea>
+                    <textarea id="Review" name="Review" rows="4" cols="50" class="textbox rBorder"></textarea>
                 </div>
-                <div>
+                <div class="contact-info">
+                    <label for="name">Name:</label> <br>
+                    <input type="text" id="name" name="name" class="skinnytextbox rBorder">
                     <br>
-                    <label for="Review">Name:</label> <br> 
-                    <textarea id="name" name="name" rows="1" cols="20" class="skinnytextbox rBorder"></textarea>
+                    <label for="email">Email:</label>
                     <br>
-
-                    <label for="Review">Email:</label>
-                    <br>
-                    <textarea id="email" name="email" rows="1" cols="20" class="skinnytextbox rBorder"></textarea>
-                    
+                    <input type="email" id="email" name="email" class="skinnytextbox rBorder">
                     <br>
                 </div>
-
-                <div class="Submitbutton rBorder">
-                    <button id="submit" class="submit-button"><span>Submit</span></button>
+                <div class="rating-and-submit-container">
+                    <div class="rating-widget-container">
+                        <h2 class="rating-heading">Rate your overall experience</h2>
+                        <div class="rating-widget">
+                            <div class="stars" aria-label="Rate this element" role="slider" aria-valuemin="1" aria-valuemax="5">
+                                <span class="star" data-value="1" data-caption="I don't like it" data-emoji="😠">&#9733;</span>
+                                <span class="star" data-value="2" data-caption="Could be better" data-emoji="🙁">&#9733;</span>
+                                <span class="star" data-value="3" data-caption="It's okay" data-emoji="😐">&#9733;</span>
+                                <span class="star" data-value="4" data-caption="I like it" data-emoji="😊">&#9733;</span>
+                                <span class="star" data-value="5" data-caption="It's amazing" data-emoji="😍">&#9733;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ratingResult">
+                            <span id="selectedEmoji"></span>
+                            <span id="selectedCaption"></span>
+                        </div>
+                    </div>
+                    <div class="submit-button-container">
+                        <button id="submit" class="submit-button"><span>Submit</span></button>
+                    </div>
                 </div>
-
             </fieldset>
         </form>  
     </div>
 
+    <script src="app.js"></script>
 </body>
 </html>
