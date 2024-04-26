@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(146, 143, 140);
+    padding: 10px;
+    }
+
+.feedbacktype {
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.field {
+    background-color: white;
+}
+.forms {
+    border-top: 40px solid rgba(46, 139, 87, .5);
+    margin: 0 auto;
+    max-width: 800px;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 10px;
+}
+
+.textbox {
+    background-color: rgba(46, 139, 87, .5);
+    width: 300px
+}
+
+.skinnytextbox {
+    background-color: rgba(46, 139, 87, .5);
+    width: 500px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-top:50px
+  }
+
+#logo{
+    position: absolute;
+    right: -30px;
+    top: -125px;
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100x;
+}
+
+ .logo-container{
+    position: relative;
+
+}
+
+
+
+.Submitbutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#submit {
+    width: 100%;
+    background-color: rgba(46, 139, 87, .5);
+}
+
+.forms fieldset > div {
+    margin-left : 30px; /* Adjust as needed */
+    margin-right: 30px
+}
+
+.rBorder {
+    border-radius: 4px;
+}
