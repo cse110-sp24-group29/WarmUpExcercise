@@ -8,12 +8,31 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document
-    .getElementById("hamburger-menu")
-    .addEventListener("click", function () {
-        const navLinks = document.getElementById("nav-links");
-        navLinks.classList.toggle("active");
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger-menu');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
     });
+
+    function updateActiveLink() {
+        const links = navLinks.querySelectorAll('a');
+        const currentPage = window.location.hash;
+
+        links.forEach(link => {
+            link.classList.remove('current-page'); // remove the class from all links
+            if (link.getAttribute('href') === currentPage) {
+                link.classList.add('current-page'); // add class if the href matches the current page
+            }
+        });
+    }
+
+    updateActiveLink();
+    window.addEventListener('hashchange', updateActiveLink);
+});
+
+
 
 document.querySelectorAll('.star').forEach(star => {
     star.addEventListener('mouseover', function () {

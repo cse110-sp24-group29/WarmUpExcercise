@@ -65,6 +65,11 @@ nav .hamburger .line {
 .nav-links div a:hover {
     color: #aaa;
 }
+
+.nav-links div a.current-page {
+    color: rgba(46, 139, 87, .5);
+}
+
   
 
 /* BODY STYLING */
