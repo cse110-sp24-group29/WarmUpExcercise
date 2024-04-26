@@ -24,12 +24,18 @@ body {
 
 .textbox {
     background-color: rgba(46, 139, 87, .5);
-    width: 300px
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 70px;
+    min-height: 70px;
 }
 
 .skinnytextbox {
     background-color: rgba(46, 139, 87, .5);
-    width: 500px;
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 20px;
+    min-height: 20px;
 }
 
 .row {
