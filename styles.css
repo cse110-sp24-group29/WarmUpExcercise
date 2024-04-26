@@ -55,20 +55,46 @@ body {
 }
 
 
+.Submitbutton button {
+    border: none;
+    background: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
 
 .Submitbutton {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+    width: 200px; 
+    height: 80px; 
+    margin: 0 auto;
+    background-color: #66cdaa; 
+    border: 2px solid #c0c0c0; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    overflow: hidden; 
+    border-radius: 20px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; 
 }
 
-#submit {
-    width: 100%;
-    background-color: rgba(46, 139, 87, .5);
+.Submitbutton span {
+    position: relative; 
+    z-index: 1; 
+    color: white; 
+    font-size: 16px; 
 }
+
+
+.Submitbutton:hover {
+    background-color: #4cafaa; 
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
 
 .forms fieldset > div {
     margin-left : 30px; /* Adjust as needed */
