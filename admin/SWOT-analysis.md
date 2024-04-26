@@ -15,14 +15,14 @@
 - The project has an insufficient fallback mechanism for widget failure. In an instance where some technologies fail the abscene of a secondary system could result in inefficiency and frustration. 
 
 ## Opportunities
-- Our team could further implement more features to the website such as recording data and sharing responses to 
-- emailing back the responses to give feedback for the feedback
+- Our team could further implement more features to the website such as recording data and sharing responses to. 
+- We can automate a process to email back the responses users give to give feedback for their feedback.
 - Connecting our feedback page to future applications and projects to get more use out of the project as well as further developing a team website that the page can connect to. 
-- We can further implement more accessibility since the web page does not work without javascript
-- More questions can be added to the feedback form in order to get more detailed responses from the users
+- We can further implement more accessibility since the web page does not work without javascript.
+- More questions can be added to the feedback form in order to get more detailed responses from the users.
 
 
 ## Threats
-- The web page has no security or protection at all and so is at risk of cyber attacks
+- The web page has no security or protection at all and so is at risk of cyber attacks.
 
 
