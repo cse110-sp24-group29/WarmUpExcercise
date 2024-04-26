@@ -10,8 +10,9 @@
 
 
 ## Weaknesses
-
-
+- The project faces issues with data privacy and security. The page stores sensitive user data without having tools to provide valid security and privacy.
+- The team although divided work efficiently, ended up with a disturbed workflow with some teams finishing work earlier leading to integrating technologies in a non-systematic manner.
+- The 
 
 ## Opportunities
 
