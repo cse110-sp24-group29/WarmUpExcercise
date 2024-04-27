@@ -15,21 +15,18 @@ Software Surfers is a team of 12 members:
 * Recorded the demo video. 
 * Created initial Github issues and branches to set up the project for everyone to work on smoothly. 
 
-### Aniruddh Krovvidi: My role involved creating the thank you page with a back button that redirects the user back to the feedback form page. 
+### Aniruddh Krovvidi (Developer): My role involved creating the thank you page with a back button that redirects the user back to the feedback form page. 
 To ensure a smooth user experience, I decided to align the items in the center of the screen, as it appealed better to the user.
 This decision was made based on user interface design principles, aiming for clarity and ease of navigation.
 
-### Shrey Kumar:  My role was to create the submit button in the sentiment widget with the design of our group's theme and 
+### Shrey Kumar (Developer):  My role was to create the submit button in the sentiment widget with the design of our group's theme and 
 give the functionality to direct the user to the thank you page when they click the button. 
 
-
-### Dev 3's role and so on
-
-### Designer 1, Ojas Tewari: Worked on creating the design layout and basic structure. 
-### Designer 2, Aditya Saini: Worked on designing the footer and the navigation bar. 
-### Designer 3, Christopher Lerum: Worked on setting color scheme and appropriate font styles. 
-### Tester 1, Tianshi Gong: Worked on testing.
-### Tester 2, Jason Tang: Worked on teting.
+### Ojas Tewari (Designer): Worked on creating the design layout and basic structure. 
+### Aditya Saini Designer: Worked on designing the footer and the navigation bar. 
+### Christopher Lerum (Designer): Worked on setting color scheme and appropriate font styles. 
+### Tianshi Gong (Tester): Worked on testing.
+### Jason Tang (Tester): Worked on teting.
 
 ## Development Tools
 * **Frontend:** HTML, CSS, and Javascript 
