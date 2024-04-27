@@ -23,12 +23,15 @@ This decision was made based on user interface design principles, aiming for cla
 give the functionality to direct the user to the thank you page when they click the button. 
 
 ### Ojas Tewari (Designer): Worked on creating the design layout and basic structure. 
-### Aditya Saini Designer: Worked on designing the footer and the navigation bar. 
+### Aditya Saini (Designer): Worked on designing the footer and the navigation bar. 
 ### Christopher Lerum (Designer): Worked on setting color scheme and appropriate font styles. 
-### Tianshi Gong (Tester): Worked on testing.
-### Jason Tang (Tester): Worked on teting.
 
-### Brandon Chung: Worked on reviewing code and updating small css changes. 
+### Tianshi Gong (Tester): Worked on testing.
+### Jason Tang (Tester): Worked on testing.
+
+### Brandon Chung (Developer): Worked on reviewing code and updating small CSS changes. 
+### Evan Kauh (Developer): Worked on implementing the navigation bar and the hamburger menu.
+### Ryan Chon (Developer): Worked on the styling and functionality of the feedback form.
 
 ## Development Tools
 * **Frontend:** HTML, CSS, and Javascript 
