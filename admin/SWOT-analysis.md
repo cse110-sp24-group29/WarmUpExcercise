@@ -28,4 +28,10 @@
 - There is currently a lack of authentication in properly validating and sanitising user input that would otherwise protect against injection attacks.
 - A possible threat could be an overwhelming number of responses hence causing the widget to be unresponsive or not work for users.
 
+## Team Learnings
+- Our Warmup Project served as a pivotal learning experience for our team, providing valuable insights into effective project management within the software development domain. 
+- While utilizing industry-standard tools like GitHub and Slack facilitated seamless collaboration and adherence to agile methodologies, our journey shed light on the importance of risk mitigation. We discovered that technical proficiency alone is insufficient without meticulous workflow organization to preempt disruptions.
+- The DeRisk assignment highlighted the necessity of prioritizing systematic workload distribution to maintain project momentum. Furthermore, our exploration underscored the iterative nature of software development, emphasizing the continual refinement of user-centric features to address diverse user needs effectively.
+- This experiential journey not only sharpened our technical skills and software know-how but also deepened our understanding of pragmatic project management principles, laying a foundation for future projects guided by resilience and foresight.
+
 
