@@ -16,7 +16,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```sh
-   git clone https://your-repository-url-here.com
+   git clone https://github.com/cse110-sp24-group29/WarmUpExcercise
    
 2. Navigate to the project directory
    cd sentiment-widget-app
