@@ -8,7 +8,7 @@
 
 
 ## Team Member: Roles
-Software Surfers is a team of 12 members: <everyone's names here Ojas Tewari, Aditya Saini, Christopher Lerum, Aniruddh Krovvidi>
+Software Surfers is a team of 12 members: <everyone's names here Ojas Tewari, Aditya Saini, Christopher Lerum, Aniruddh Krovvidi, Tianshi Gong, Jason Tang>
 
 ### Dev 1's role, Aniruddh Krovvidi: My role involved creating the thank you page with a back button that redirects the user back to the feedback form page. 
 To ensure a smooth user experience, I decided to align the items in the center of the screen, as it appealed better to the user.
@@ -22,10 +22,12 @@ This decision was made based on user interface design principles, aiming for cla
 ### Designer 1, Ojas Tewari: Worked on creating the design layout and basic structure. 
 ### Designer 2, Aditya Saini: Worked on designing the footer and the navigation bar. 
 ### Designer 3, Christopher Lerum: Worked on setting color scheme and appropriate font styles. 
+### Tester 1, Tianshi Gong: Worked on testing.
+### Tester 2, Jason Tang: Worked on teting.
 
 ## Development Tools
 * **Frontend:** HTML, CSS, and javascript...
-* **Testing:** 
+* **Testing:** javascript
 * **Designing:** Draw.io
 
 ## Project Management Tools
@@ -36,8 +38,21 @@ This decision was made based on user interface design principles, aiming for cla
 
 
 ## Testing
-* **Unit Testing:** Describe the approach to unit testing...
-* **tests/:** Contains unit tests for the application...
+* **Unit Testing:** 
+Unit tests are designed to test individual functions of the webpage to ensure they function correctly in isolation from other parts. The approach involves: Use mocks and stubs to simulate the behavior; Specify what the expected outcome should be for the given input values and compare; Use a test runner and assertions to automatically check if the component behaves as expected.
+* **tests:** 
+1. testInputField()
+Purpose: Tests if text input fields accept input and store the correct values.
+Method: Simulates entering text into input fields and checks if the value matches the entered text.
+1. testRadioButton()
+Purpose: Ensures that radio buttons can be selected and only one selection is allowed at a time within a group.
+Method: Clicks each radio button and verifies that the clicked button is checked while others are unchecked.
+1. testRatingWidget()
+Purpose: Verifies that the rating widget updates the display and internal state when a user selects a rating.
+Method: Simulates clicks on each star in the rating widget and checks if the UI updates to reflect the correct rating and if the correct value is stored internally.
+1. testFormSubmission()
+Purpose: Tests form submission, ensuring the form gathers input data correctly and triggers the submit event.
+Method: Fills out the form, triggers a submit, and checks if all data is correctly gathered and submitted without actually sending a request.
 
 ## Security Measures
 * **Assumptions and Dependencies:**...
