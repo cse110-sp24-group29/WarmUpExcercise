@@ -5,13 +5,21 @@
 
 
 ## Team Member: Roles
-Software Surfers is a team of 12 members: <everyone's names here Ojas Tewari, Aditya Saini, Christopher Lerum, Aniruddh Krovvidi, Tianshi Gong, Jason Tang>
+Software Surfers is a team of 12 members:
+
+### Saksham Rai:
+* Brainstormed design and implementation ideas for the entire project. 
+* Wrote code to develop: sentiment widget, fallback page, debugging/resolving errors in all HTML, CSS and JS files.
+* Created the Engineering Doc.
+* Led/Organised all checkin meetings for this project.
+* Recorded the demo video. 
+* Created initial Github issues and branches to set up the project for everyone to work on smoothly. 
 
 ### Aniruddh Krovvidi: My role involved creating the thank you page with a back button that redirects the user back to the feedback form page. 
 To ensure a smooth user experience, I decided to align the items in the center of the screen, as it appealed better to the user.
 This decision was made based on user interface design principles, aiming for clarity and ease of navigation.
 
-### Dev 2's role, Shrey Kumar:  My role was to create the submit button in the sentiment widget with the design of our group's theme and 
+### Shrey Kumar:  My role was to create the submit button in the sentiment widget with the design of our group's theme and 
 give the functionality to direct the user to the thank you page when they click the button. 
 
 
