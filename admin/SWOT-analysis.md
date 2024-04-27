@@ -24,5 +24,8 @@
 
 ## Threats
 - The web page has no security or protection at all and so is at risk of cyber attacks.
+- A potential threat could be user dissatisfaction as the feedback form can't be modified after submissions.
+- There is currently a lack of authentication in properly validating and sanitising user input that would otherwise protect against injection attacks.
+- A possible threat could be an overwhelming number of responses hence causing the widget to be unresponsive or not work for users.
 
 
