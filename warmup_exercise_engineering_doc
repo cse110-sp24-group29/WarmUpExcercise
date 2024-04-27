@@ -8,9 +8,10 @@
 
 
 ## Team Member: Roles
-Software Surfers is a team of 12 members: <everyone's names here>
+Software Surfers is a team of 12 members: <everyone's names here Tianshi Gong, >
 
-### Dev 1's role
+### Dev 1, Tianshi Gong: Worked on testing
+
 
 ### Dev 2's role
 
@@ -20,7 +21,7 @@ Software Surfers is a team of 12 members: <everyone's names here>
 
 ## Development Tools
 * **Frontend:** HTML, CSS, and javascript...
-* **Testing:** 
+* **Testing:** javascript
 
 ## Project Management Tools
 * Github issues...
@@ -30,8 +31,21 @@ Software Surfers is a team of 12 members: <everyone's names here>
 
 
 ## Testing
-* **Unit Testing:** Describe the approach to unit testing...
-* **tests/:** Contains unit tests for the application...
+* **Unit Testing:** 
+Unit tests are designed to test individual functions of the webpage to ensure they function correctly in isolation from other parts. The approach involves: Use mocks and stubs to simulate the behavior; Specify what the expected outcome should be for the given input values and compare; Use a test runner and assertions to automatically check if the component behaves as expected.
+* **tests:** 
+1. testInputField()
+Purpose: Tests if text input fields accept input and store the correct values.
+Method: Simulates entering text into input fields and checks if the value matches the entered text.
+1. testRadioButton()
+Purpose: Ensures that radio buttons can be selected and only one selection is allowed at a time within a group.
+Method: Clicks each radio button and verifies that the clicked button is checked while others are unchecked.
+1. testRatingWidget()
+Purpose: Verifies that the rating widget updates the display and internal state when a user selects a rating.
+Method: Simulates clicks on each star in the rating widget and checks if the UI updates to reflect the correct rating and if the correct value is stored internally.
+1. testFormSubmission()
+Purpose: Tests form submission, ensuring the form gathers input data correctly and triggers the submit event.
+Method: Fills out the form, triggers a submit, and checks if all data is correctly gathered and submitted without actually sending a request.
 
 ## Security Measures
 * **Assumptions and Dependencies:**...
