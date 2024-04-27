@@ -1,16 +1,13 @@
 # Warmup Project (Sentiment-Widget)
 
 ## Objectives
-* 
-
-## Scope
-* 
+* To derisk our team both in terms of handling technical challenges and managing the workflow within our team. 
 
 
 ## Team Member: Roles
-Software Surfers is a team of 12 members: <everyone's names here Ojas Tewari, Aditya Saini, Christopher Lerum, Aniruddh Krovvidi, Tianshi Gong, Jason Tang, Saksham Rai, Shrey Kumar>
+Software Surfers is a team of 12 members: <everyone's names here Ojas Tewari, Aditya Saini, Christopher Lerum, Aniruddh Krovvidi, Tianshi Gong, Jason Tang>
 
-### Dev 1's role, Aniruddh Krovvidi: My role involved creating the thank you page with a back button that redirects the user back to the feedback form page. 
+### Aniruddh Krovvidi: My role involved creating the thank you page with a back button that redirects the user back to the feedback form page. 
 To ensure a smooth user experience, I decided to align the items in the center of the screen, as it appealed better to the user.
 This decision was made based on user interface design principles, aiming for clarity and ease of navigation.
 
@@ -24,19 +21,27 @@ give the functionality to direct the user to the thank you page when they click 
 ### Designer 2, Aditya Saini: Worked on designing the footer and the navigation bar. 
 ### Designer 3, Christopher Lerum: Worked on setting color scheme and appropriate font styles. 
 ### Tester 1, Tianshi Gong: Worked on testing.
-### Tester 2, Jason Tang: Worked on testing.
+### Tester 2, Jason Tang: Worked on teting.
 
 ## Development Tools
-* **Frontend:** HTML, CSS, and javascript...
+* **Frontend:** HTML, CSS, and Javascript 
 * **Testing:** javascript
 * **Designing:** Draw.io
+* **Developing:** Visual Studio Code 
 
 ## Project Management Tools
-* Github issues...
+* Github
+* Slack
 
 ## System Architecture
-
-
+* 3 HTML Pages: index.html (landing feedback page), ty-page.html (feedback submission confirmation), fallback.html (if user comes to this).
+* 2 CSS Files: styles.css (to style index.html), fallback_styles.css (to style fallback.html)
+* 1 js File: app.js (contains eventloaders to dynamically update the rating widget, navigation bar via mouse hovering/cliking). 
+* Control Flow: 
+1. User arrives at index.html and fills out the form, inlcuding the sentiment - widget. 
+2. User presses submit and is routed to the Thank You page, indicating completion of the process. 
+3. User presses back to go back to the feedback page. 
+4. If the user presses any link on the navigation tab apart from "Feedback", they are routed to the Fallback page. 
 
 ## Testing
 * **Unit Testing:** 
@@ -54,7 +59,3 @@ Method: Simulates clicks on each star in the rating widget and checks if the UI 
 1. testFormSubmission()
 Purpose: Tests form submission, ensuring the form gathers input data correctly and triggers the submit event.
 Method: Fills out the form, triggers a submit, and checks if all data is correctly gathered and submitted without actually sending a request.
-
-## Security Measures
-* **Assumptions and Dependencies:**...
-* **Risks and Mitigations:**...
