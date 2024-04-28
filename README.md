@@ -1,6 +1,6 @@
 # Sentiment Widget 
 
-A simple static web page widget designed to as a demo feedback to collect user feedback on their experience with the app. The prupose of the project is to assess our team of developers in handling technical difficulty and managing workflow. 
+A simple static web page widget designed to serve as a demo feedback form to collect user feedback on their experience with the app. The purpose of the project is to assess our team of developers in handling technical difficulty and managing workflow. 
 
 ## Features
 
