@@ -48,7 +48,7 @@ give the functionality to direct the user to the thank you page when they click 
 * 2 CSS Files: styles.css (to style index.html), fallback_styles.css (to style fallback.html)
 * 1 js File: app.js (contains eventloaders to dynamically update the rating widget, navigation bar via mouse hovering/cliking). 
 * Control Flow: 
-1. User arrives at index.html and fills out the form, inlcuding the sentiment - widget. 
+1. User arrives at index.html and fills out the form, including the sentiment - widget. 
 2. User presses submit and is routed to the Thank You page, indicating completion of the process. 
 3. User presses back to go back to the feedback page. 
 4. If the user presses any link on the navigation tab apart from "Feedback", they are routed to the Fallback page. 
