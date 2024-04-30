@@ -44,3 +44,16 @@
 - Shrey- worked on the HTML for the submit function as well as the backend functionality and worked on the SWOT analysis
 - Evan- worked on the nav bar links, appearance, and popout functionality in HTML, CSS, and Javascript 
 - Aniruddh- worked on the welcome page HTML and styling and links to go back as well as the SWOT analysis
+
+## Screenshots from Meeting
+![img1](./sprint1-review-images/img1.png)
+![img2](./sprint1-review-images/img2.png)
+![img3](./sprint1-review-images/img3.png)
+![img4](./sprint1-review-images/img4.png)
+![img5](./sprint1-review-images/img5.png)
+![img6](./sprint1-review-images/img6.png)
+![img7](./sprint1-review-images/img7.png)
+![img8](./sprint1-review-images/img8.png)
+![img9](./sprint1-review-images/img9.png)
+![img10](./sprint1-review-images/img10.png)
+![img11](./sprint1-review-images/img11.png)
